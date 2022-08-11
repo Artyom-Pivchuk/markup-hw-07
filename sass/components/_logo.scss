@@ -4,9 +4,7 @@
 
 .logo-header-link {
     font-family: var(--secondary-font-family);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font (26px, 700. 1.19);
     color: #000000;
     margin-right: 93px;
 
@@ -17,9 +15,7 @@
 
 .logo-footer-link {
     font-family: var(--secondary-font-family);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font (26px, 700. 1.19);
     color: var(--title-color);
 
     &:focus {

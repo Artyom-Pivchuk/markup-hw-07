@@ -1,9 +1,12 @@
+.page-header {
+    border-bottom: 1px solid #ececec;
+}
+
 .header-container {
     display: flex;
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ececec;
 }
 
 .navigation {
