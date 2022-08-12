@@ -22,18 +22,18 @@
         <div class="container header-container">
             <nav class="navigation">
                 <!--Логотип header-->
-                <a class="logo logo_theme_light logo-header-link link" href="index.html" lang="en"><span class="logo_prefix-color_blue">Web</span>Studio</a>
+                <a class="logo logo_theme_light logo-header-link" href="index.html" lang="en"><span class="logo_prefix-color_blue">Web</span>Studio</a>
                 <!--Меню навігації header-->
                 <ul class="menu list">
-                    <li class="menu__item"><a class="menu__link link" href="index.html">Студия</a></li>
-                    <li class="menu__item"><a class="menu__link link menu__link_active" href="portfolio.html">Портфолио</a></li>
-                    <li class="menu__item"><a class="menu__link link" href="#contacts">Контакты</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html">Студия</a></li>
+                    <li class="menu__item"><a class="menu__link menu__link_active" href="portfolio.html">Портфолио</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
             <!--Список контактів header-->
-            <ul class="header-contacts list">
+            <ul class="header-contacts">
                 <li class="header-contacts__item">
-                    <a class="header-contacts__link link" href="mailto:info@devstudio.com" lang="en">
+                    <a class="header-contacts__link" href="mailto:info@devstudio.com" lang="en">
                         <svg class="header-contacts__icon" width="16" height="12">
                             <use href="images/icons/sprite.svg#icon-envelope"></use>
                         </svg>
@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li class="header-contacts__item">
-                    <a class="header-contacts__link link" href="tel:+380961111111">
+                    <a class="header-contacts__link" href="tel:+380961111111">
                         <svg class="header-contacts__icon" width="10" height="16">
                             <use href="images/icons/sprite.svg#icon-smartphone"></use>
                         </svg>
@@ -54,147 +54,147 @@
     <!--СТОРІНКА ПОРТФОЛІО-->
    <main>
         <!--Секція фільтр-меню-->
-       <section class="section filters-section">
-            <div class="container filters-container">
-                <h2 class="portfolio-title" hidden>Фильтры</h2>
-                <ul class="filter-buttons list">
-                    <li class="filter-buttons-item">
-                        <button class="filter-btn" type="button">Все</button>
+       <section class="section section_specific-pb">
+            <div class="container">
+                <h2 class="section__title visually-hidden">Фильтры</h2>
+                <ul class="filters">
+                    <li class="filters__item">
+                        <button class="filters__btn" type="button">Все</button>
                     </li>
-                    <li class="filter-buttons-item">
-                        <button class="filter-btn" type="button">Веб-сайты</button>
+                    <li class="filters__item">
+                        <button class="filters__btn" type="button">Веб-сайты</button>
                     </li>
-                    <li class="filter-buttons-item">
-                        <button class="filter-btn" type="button">Приложения</button>
+                    <li class="filters__item">
+                        <button class="filters__btn" type="button">Приложения</button>
                     </li>
-                    <li class="filter-buttons-item">
-                        <button class="filter-btn" type="button">Дизайн</button>
+                    <li class="filters__item">
+                        <button class="filters__btn" type="button">Дизайн</button>
                     </li>
-                    <li class="filter-buttons-item">
-                    <button class="filter-btn" type="button">Маркетинг</button>
+                    <li class="filters__item">
+                    <button class="filters__btn" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </div>
         </section>
         <!--Секція проектів портфоліо-->
-        <section class="section portfolio-section">
-            <div class="container portfolio-container">
-                <h2 class="portfolio-title" hidden>Портфолио</h2>
-                <ul class="portfolio-list list">
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-01.jpg" alt="Ноутбук с открытым веб-сайтом Технокряк на экране" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+        <section class="section section_specific-pt">
+            <div class="container">
+                <h2 class="section__title visually-hidden">Портфолио</h2>
+                <ul class="portfolio">
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-01.jpg" alt="Ноутбук с открытым веб-сайтом Технокряк на экране" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Технокряк</h3>
-                            <p class="portfolio-description">Веб-сайт</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Технокряк</h3>
+                            <p class="portfolio__description">Веб-сайт</p>
                         </div>
                         </a>    
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-02.jpg" alt="Постер с баскетболистами, сражающимися за мяч" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-02.jpg" alt="Постер с баскетболистами, сражающимися за мяч" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
-                            <p class="portfolio-description">Дизайн</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Постер New Orlean vs Golden Star</h3>
+                            <p class="portfolio__description">Дизайн</p>
                         </div>
                         </a>
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-03.jpg" alt="Логотип Ресторана Seafood" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-03.jpg" alt="Логотип Ресторана Seafood" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Ресторан Seafood</h3>
-                            <p class="portfolio-description">Приложение</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Ресторан Seafood</h3>
+                            <p class="portfolio__description">Приложение</p>
                         </div>
                         </a>     
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-04.jpg" alt="Наушники" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-04.jpg" alt="Наушники" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Проект Prime</h3>
-                            <p class="portfolio-description">Маркетинг</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Проект Prime</h3>
+                            <p class="portfolio__description">Маркетинг</p>
                         </div>
                         </a>
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-05.jpg" alt="Две бумажные коробки" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-05.jpg" alt="Две бумажные коробки" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Проект Boxes</h3>
-                            <p class="portfolio-description">Приложение</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Проект Boxes</h3>
+                            <p class="portfolio__description">Приложение</p>
                         </div>
                         </a>
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-06.jpg" alt="Монитор с открытым веб-сайтом Inspiration has no Borders на экране" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-06.jpg" alt="Монитор с открытым веб-сайтом Inspiration has no Borders на экране" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Inspiration has no Borders</h3>
-                            <p class="portfolio-description">Веб-сайт</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Inspiration has no Borders</h3>
+                            <p class="portfolio__description">Веб-сайт</p>
                         </div>
                         </a>    
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-07.jpg" alt="Открытое издание Limited Edition на 22-23 страницах" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-07.jpg" alt="Открытое издание Limited Edition на 22-23 страницах" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Издание Limited Edition</h3>
-                            <p class="portfolio-description">Дизайн</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Издание Limited Edition</h3>
+                            <p class="portfolio__description">Дизайн</p>
                         </div>
                         </a>
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-08.jpg" alt="Бумажная этикетка с надписью LAB EL TAG" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-08.jpg" alt="Бумажная этикетка с надписью LAB EL TAG" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Проект LAB</h3>
-                            <p class="portfolio-description">Маркетинг</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Проект LAB</h3>
+                            <p class="portfolio__description">Маркетинг</p>
                         </div>
                         </a>
                     </li>
-                    <li class="portfolio-list-item">
-                        <a href="" class="portfolio-list-link link">
-                        <div class="portfolio-list-img-wrapper">
-                            <img class="portfolio-img" src="./images/portfolio/img-project-09.jpg" alt="Человек сидит за нотбуком, на экране которого открыто приложение Growing Business" width="370" height="294">
-                            <p class="portfolio-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                        <div class="portfolio__wrapper">
+                            <img class="portfolio__img" src="./images/portfolio/img-project-09.jpg" alt="Человек сидит за нотбуком, на экране которого открыто приложение Growing Business" width="370" height="294">
+                            <p class="portfolio__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="portfolio-list-item-container">
-                            <h3 class="portfolio-title">Growing Business</h3>
-                            <p class="portfolio-description">Приложение</p>
+                        <div class="portfolio__container">
+                            <h3 class="portfolio__title">Growing Business</h3>
+                            <p class="portfolio__description">Приложение</p>
                         </div>
                         </a>
                     </li>
