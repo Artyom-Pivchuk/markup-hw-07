@@ -2,21 +2,21 @@
     padding-bottom: 94px;
 }
 
-.employment-list {
+.employment__list {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
 }
 
-.employment-list-item {
+.employment__list-item {
     position: relative;
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc((100% - 90px) / 3);
 }
 
-.employment-list-overlay {
+.employment__list-overlay {
     position: absolute;
     width: 100%;
     bottom: 0;

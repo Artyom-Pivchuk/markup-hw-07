@@ -1,17 +1,17 @@
-.priorities-list {
+.priorities__list {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
 }
 
-.priorities-list-item {
+.priorities__list-item {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.priorities-list-title {
+.priorities__title {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -19,12 +19,12 @@
     margin-top: 30px;
 }
 
-.priorities-description {
+.priorities__description {
     line-height: 1.71;
     color: var(--description-color);
 }
 
-.priorities-icon-container {
+.priorities__icon-container {
     display: flex;
     background-color: #F5F4FA;
     border-radius: 4px;
