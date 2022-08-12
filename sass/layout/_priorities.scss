@@ -1,11 +1,11 @@
-.priorities__list {
+.priorities {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
 }
 
-.priorities__list-item {
+.priorities__item {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
@@ -24,7 +24,7 @@
     color: var(--description-color);
 }
 
-.priorities__icon-container {
+.priorities__container {
     display: flex;
     background-color: #F5F4FA;
     border-radius: 4px;

@@ -1,26 +1,26 @@
-.footer-social-description {
+.footer-socials-description {
     margin-top: 12px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--title-color);
 }
 
-.footer-social-links__icon {
+.footer-socials__icon {
     width: 20px;
     height: 20px;
     fill: var(--title-color);
 }
 
-.footer-social-links-list__item:not(:first-child) {
+.footer-socials__item:not(:first-child) {
     margin-left: 10px;
 }
 
-.footer-social-links-list {
+.footer-socials {
     display: flex;
     margin-top: 20px;
 }
 
-.footer-social-links__link {
+.footer-socials__link {
     @extend %align;
     width: 44px;
     height: 44px;

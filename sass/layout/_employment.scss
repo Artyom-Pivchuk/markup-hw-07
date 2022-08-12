@@ -1,22 +1,18 @@
-.section-employment {
-    padding-bottom: 94px;
-}
-
-.employment__list {
+.employment {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
 }
 
-.employment__list-item {
+.employment__item {
     position: relative;
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc((100% - 90px) / 3);
 }
 
-.employment__list-overlay {
+.employment__overlay {
     position: absolute;
     width: 100%;
     bottom: 0;
